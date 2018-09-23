@@ -30,6 +30,14 @@ namespace GameApp
         }
 
 
+        public override int GetHashCode()
+        {
+            var hashCode = 1861411795;
+            hashCode = hashCode * -1521134295 + X.GetHashCode();
+            hashCode = hashCode * -1521134295 + Y.GetHashCode();
+            return hashCode;
+        }
+
         public static bool operator ==(Point a, Point b)
         {
             return a.X == b.X && a.Y == b.Y;
@@ -40,6 +48,9 @@ namespace GameApp
         {
             return !(a == b);
         }
+
+
+      
 
     }
 }
