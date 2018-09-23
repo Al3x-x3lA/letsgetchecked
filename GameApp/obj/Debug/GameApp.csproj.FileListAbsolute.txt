@@ -1,0 +1,10 @@
+C:\Users\Alexis\Documents\Visual Studio 2017\Projects\LetsGetCheckedSolution\GameApp\bin\Debug\GameApp.exe.config
+C:\Users\Alexis\Documents\Visual Studio 2017\Projects\LetsGetCheckedSolution\GameApp\bin\Debug\GameApp.exe
+C:\Users\Alexis\Documents\Visual Studio 2017\Projects\LetsGetCheckedSolution\GameApp\bin\Debug\GameApp.pdb
+C:\Users\Alexis\Documents\Visual Studio 2017\Projects\LetsGetCheckedSolution\GameApp\obj\Debug\GameApp.csprojAssemblyReference.cache
+C:\Users\Alexis\Documents\Visual Studio 2017\Projects\LetsGetCheckedSolution\GameApp\obj\Debug\GameApp.csproj.CoreCompileInputs.cache
+C:\Users\Alexis\Documents\Visual Studio 2017\Projects\LetsGetCheckedSolution\GameApp\obj\Debug\GameApp.exe
+C:\Users\Alexis\Documents\Visual Studio 2017\Projects\LetsGetCheckedSolution\GameApp\obj\Debug\GameApp.pdb
+C:\Users\Alexis\Documents\Visual Studio 2017\Projects\LetsGetCheckedSolution\GameApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alexis\Documents\Visual Studio 2017\Projects\LetsGetCheckedSolution\GameApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alexis\Documents\Visual Studio 2017\Projects\LetsGetCheckedSolution\GameApp\obj\Debug\GameApp.csproj.CopyComplete
