@@ -71,7 +71,14 @@ namespace GameApp
                 throw new ArgumentException($"sizeY can not be bigger than {MAX_SIZE}.");
 
             if (Mines.Count != Mines.Distinct().Count())
-                throw new ArgumentException("Mines contains the same points: " + string.Join(", ", Mines.Except(Mines.Distinct())));
+            {
+                List<Point> copyMines = Mines.ToList();
+                Mines.Distinct().ToList().ForEach(m =>
+                {
+                    copyMines.Remove(m);
+                });
+                throw new ArgumentException("Mines contains the same points." + string.Join(", ", copyMines));
+            }
 
             if (Mines.Count(tmpP => tmpP == exit) > 0)
                 throw new ArgumentException($"Exit point has the same corrdinate as a mine.");
